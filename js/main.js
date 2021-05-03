@@ -57,3 +57,16 @@ new Swiper('.notice-line .swiper-container',{
   autoplay: true,
   loop: true
 });
+
+new Swiper('.promotion .swiper-container',{
+  //기본값이라 명시하지 않아도 됨 direction
+  direction: 'horizontal',
+  slidesPerView: 3, //한번에 보여줄 슬라이드 개수
+  spaceBetween: 10, //슬라이드 사이 여백
+  centeredSliders: true, // 1번 슬라이드가 가운데 보이기
+  loop: true,
+  autoplay:{
+    delay: 1000
+
+  }
+})
